@@ -1,0 +1,105 @@
+h1 { 
+	font-size: 70px;
+	font-family: Courier, sans-serif;
+	color: #E26A2C;
+	padding: 200px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: Courier, sans-serif;
+	color: #E26A2C;
+	padding: 0px;
+	padding-bottom: 300px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: lighter;
+}
+
+ h3{
+ 	font-size: 40px;
+ 	font-family: trattatello, fantasy;
+ 	color: #E26A2C;
+ 	font-weight: 500px;
+ 	padding: 15px;
+ 	text-align: center;
+ 	margin: 30px;
+}
+
+header {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), black ), url(recetteshalloween.jpeg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+body{
+	background: black;
+	color: #FCFCFC;
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+.border {
+	background-color: rgba(0,0,0,0.6);
+}
+
+.memo {
+	background: black;
+ 	margin: 20px;
+ 	padding: 40px;
+ 	border-radius: 25px;
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.9);
+ 	text-align: justify;
+ 	display: flex;
+ 	justify-content: flex-end;
+}
+
+.flex_test {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.Boxes {
+	background: #E26A2C;
+ 	margin: 20px;
+ 	padding: 20px;
+ 	border-radius: 25px;
+ 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.9);
+ 	width: 100px;
+ 	
+}
+
+.boxe_receip {
+	border : solid  #FF894C 5px; 
+	margin: 10px;
+	padding: 10px;
+}
+
+.boxe_ingredient {
+	border : solid  #FF894C 5px; 
+	margin: 10px;
+	padding: 10px;
+}
+
+.boxe_recettes {
+	border : solid  #FF894C 5px; 
+	margin: 10px;
+	padding: 10px;
+	text-align: justify;
+}
+
+.espace {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.Next {
+	display: flex;
+	justify-content: flex-end;
+	margin: 50px;
+}
